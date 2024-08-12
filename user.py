@@ -2,6 +2,13 @@ import sqlite3
 
 CLI - command line interface application
 
+#git config --global user.name"Nitish"
+#git config --global user.email"nitishyadav0825@gmail.com"
+
+#1.change the code
+#2.git add.
+#3.git commit -m "your message"
+#4. git push origin
 def create_connection():
     try:
         con = sqlite3.connect("users.sqlite3")
